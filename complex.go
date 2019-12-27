@@ -14,7 +14,7 @@ func main() {
         
  	fmt.Println("addition of complex numbers: " , k)
 
-        fmt.Printf("type of k1 is %T \n" , k1)
+       fmt.Printf("type of k1 is %T \n" , k1)
  
 	fmt.Printf("type of k2 is %Ti \n" , k2)
 
