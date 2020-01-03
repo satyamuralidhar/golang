@@ -13,7 +13,7 @@ func fullname(firstname * string , lastname * string) {
 	}	
 	fmt.Printf("%s ,%s", *firstname , *lastname)
 }
-func main()  {
+func main() {
 	firstname := "satya"
 	lastname := "peddireddi"
 	fullname(&firstname , &lastname)
