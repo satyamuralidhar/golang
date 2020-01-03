@@ -25,6 +25,6 @@ func main() {
 	done := make(chan bool)
 	go sample(done)
 	<- done
-	fmt.PrintlnI(exit)
+	fmt.Println(exit)
 
 }
